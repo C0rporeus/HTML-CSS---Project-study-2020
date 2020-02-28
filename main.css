@@ -17,7 +17,7 @@
 body {
     margin: 0;
     background-color: #024545;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
 }
 
 .header {
@@ -88,23 +88,38 @@ ul:hover {
     color: white;
     font-size: 25px;
     width: 100%;
+    align-items: center;
+    text-align: center;
 }
 
 .input {
     color: white;
-    font-family: 'Muli', sans-serif !important;
+    font-family: "Muli", sans-serif !important;
     background-color: rgba(255, 255, 255, 0.123);
     font-size: 16px;
     width: 65%;
     padding: 6px 0px 6px 20px;
     height: 30px;
-    margin: 0px 0% 0px 15%;
+    margin: 0 5px;
     border: 2px solid #E5E5E5;
     border-radius: 35px;
+    outline: none;
+}
+
+.input:focus {
+    color: white;
 }
 
 .input::placeholder {
     color: white;
+}
+
+.categories__title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
 }
 
 .carousel {
@@ -156,7 +171,7 @@ ul:hover {
 }
 
 .carousel-item__details {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0)100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
     font-size: 10px;
     opacity: 0;
     transition: 450ms opacity;
@@ -167,3 +182,6 @@ ul:hover {
     right: 0;
     bottom: 0;
 }
+
+
+/*# sourceMappingURL=main.css.map */
